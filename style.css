@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  padding: 0 50px 0 50px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  width: 32px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.header p {
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.bannerrosa {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bannerrosa.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bannerrosa h1 {
+  text-align: center;
+  width: 500px;
+  font-size: 60px;
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 6%;
+  /*border: solid red;*/
+}
+
+.patinhadog {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  /* border: solid blue;*/
+}
+
+.patinhadog img {
+  width: 90%;
+}
+
+.dogcaramelo {
+  width: 100%;
+  height: 100vh;
+  background-image: url("dogcaramelo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 3rem;
+  color: #3a342f;
+  /* border: solid black;*/
+}
+
+.dogcaramelo button {
+  color: #f4f2f3;
+  background: #3a342f 0% 0% no-repeat padding-box;
+}
+
+.conteudo {
+  width: 40%;
+  /* border: solid pink;*/
+}
+
+.conteudo h2 {
+  font-size: 60px;
+  font-size: bold;
+  font-family: "Roboto Serif, serif";
+}
+
+.conteudo p {
+  font-size: 30px;
+  font: normal normal normal 27px/42px Roboto;
+  letter-spacing: 0px;
+}
+
+.conteudo button {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 2rem;
+  border: none;
+}
+
+.minidoguinho {
+  width: 100%;
+  height: 100vh;
+  background-image: url("minidoguinho.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  color: #fff;
+  padding-right: 3rem;
+}
+
+.minidoguinho button {
+  color: #000;
+  background: #fff 0% 0% no-repeat padding-box;
+}
+.conteudo1 {
+  width: 40%;
+  /* border: solid pink;*/
+}
+
+.conteudo1 h2 {
+  font-size: 60px;
+  font-size: bold;
+  font-family: "Roboto Serif, serif";
+}
+
+.conteudo1 p {
+  font-size: 30px;
+  font: normal normal normal 27px/42px Roboto;
+  letter-spacing: 0px;
+}
+
+.conteudo1 button {
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 2rem;
+  border: none;
+}
+
+.apoio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+
+.apoio p {
+  color: #fd6a9a;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  background-color: #eb4a7b;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer h3 {
+  display: flex;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Roboto Serif", serif;
+  font-size: 1.9rem;
+  margin: 0 16rem 2rem 1rem;
+}
+footer li {
+  display: flex;
+  font-family: Roboto;
+  color: white;
+  justify-content: space-between;
+  /*border: solid green;*/
+  margin-top: 0.5rem;
+}
+
+/* Estilos para dispositivos com largura máxima de 500px */
+@media screen and (max-width: 500px) {
+  #instagram,
+  #youtube {
+    display: none;
+  }
+  .bannerrosa {
+    width: 100%;
+    height: 100vh;
+    background-image: url("bannerrosa2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bannerrosa h1 {
+    text-align: center;
+    width: 500px;
+    font-size: 50px;
+    font-family: "Roboto Serif", serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 6%;
+    /* border: solid red;*/
+  }
+  .dogcaramelo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("dogcaramelo2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 6rem;
+    color: #3a342f;
+    /* border: solid black;*/
+  }
+  .conteudo {
+    width: 100%;
+    /*  border: solid pink;*/
+    position: relative;
+    right: 3rem;
+    top: 2rem;
+  }
+
+  .conteudo h2 {
+    font-size: 2rem;
+    font-size: bold;
+    font-family: "Roboto Serif, serif";
+    /* border: solid red;*/
+  }
+  .conteudo p {
+    font-size: 1rem;
+    font: "Roboto";
+    letter-spacing: 0px;
+  }
+  .conteudo button {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 2rem;
+    border: none;
+  }
+
+  .minidoguinho {
+    width: 100%;
+    height: 100vh;
+    background-image: url("minidoguinho2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+    padding-right: 5rem;
+  }
+  .conteudo1 {
+    width: 100%;
+    /*  border: solid green;*/
+    position: relative;
+    left: 2rem;
+    bottom: 9rem;
+  }
+  .conteudo1 h2 {
+    font-size: 30px;
+    font-size: bold;
+    font-family: "Roboto Serif, serif";
+  }
+  .conteudo1 p {
+    font-size: 1rem;
+    font: "Roboto";
+    letter-spacing: 0px;
+  }
+  .conteudo1 button {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 2rem;
+    border: none;
+  }
+  .apoio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+    margin-right: 5rem;
+  }
+
+  .apoio p {
+    color: #fd6a9a;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    bottom: 2rem;
+    left: 13rem;
+  }
+}
